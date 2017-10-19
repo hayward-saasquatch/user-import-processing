@@ -27,18 +27,6 @@ print("ifilePath: ", ifilePath)
 
 print("ofilePath: ", ofilePath)
 
-#open input file
-ifile  = open("Referral-SaaS_List.csv", newline='')
-reader = csv.reader(ifile)
-
-#open input file 2
-ifile2  = open("USER_REPORT_Bambora_20171011-20171018.csv", newline='')
-reader2 = csv.reader(ifile2)
-
-#open output file to write to
-ofile  = open("Bambora_output.csv", 'w', newline='')
-writer = csv.writer(ofile)
-
 #initialize list of taken codes
 codeList = []
 
